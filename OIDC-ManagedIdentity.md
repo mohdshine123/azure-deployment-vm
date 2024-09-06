@@ -17,9 +17,12 @@ Create GitHub secrets for storing Azure configuration.
 Request Azure@# platform in ServiceNow using Azure Technical Assistance offering to:
 
 Create a Service Principal for your subscription.
+
 Associate Service Principal to the subscription as Contributor.
 Add federated credentials with the detail described in the section below.
-(OR) Create a user-assigned Managed Identity (self-service)
+(OR) 
+
+Create a user-assigned Managed Identity (self-service)
 Follow the Azure documentation to create a user-assigned managed identity. Then, add the managed identity to the #Contributors group of your subscription.
 
 2. Add Federated Credentials
